@@ -16,8 +16,6 @@ public class SumOfArray {
         {
             sum=sum+arr[i];
         }    
-        System.out.println("Addition of array elements is "+sum);
-        
-    }
-    
+        System.out.println("Addition of array elements is "+sum);  
+    }   
 }
