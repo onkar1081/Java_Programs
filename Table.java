@@ -10,8 +10,6 @@ public class Table {
         {
             System.out.println(i*n);
             i++;
-        }
-        
-    }
-    
+        }       
+    }    
 }
