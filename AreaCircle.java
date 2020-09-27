@@ -8,6 +8,5 @@ public class AreaCircle {
         r=ob.nextFloat();
         a=3.14f*r*r;
         System.out.println("Area is "+a);
-    }
-    
+    }  
 }
