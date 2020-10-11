@@ -1,0 +1,20 @@
+package methodoverriding;
+class A{
+    void show()
+    {
+        System.out.println("In A");
+    }
+}
+class B extends A{
+    void show()
+    {
+        System.out.println("In B");
+    }
+}
+public class MethodOverriding {
+    public static void main(String[] args) {
+       B ob=new B();
+       ob.show();
+       
+    }   
+}
